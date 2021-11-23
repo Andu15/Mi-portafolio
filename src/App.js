@@ -10,11 +10,13 @@ import AboutMe from './pages/AboutMe.jsx';
 import Projects from './pages/Projects.jsx';
 import Letstalk from './pages/LetsTalk.jsx';
 import Error404 from './pages/Error404.jsx';
+import Nav from './components/Nav';
 
 const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
+        <Nav/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutme" element={<AboutMe />} />

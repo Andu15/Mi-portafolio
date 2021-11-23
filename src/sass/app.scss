@@ -1,11 +1,26 @@
 @import 'variables';
 @import 'mixins';
 
-// *{
-//   margin: 0px;
-//   padding:0px;
-//   box-sizing: border-box;
-// }
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.logo {
+  background-image: url('../assets/LOGO.png');
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 70px;
+}
+
+body{
+  background-color: map-get($color, black);
+}
+
+a {
+  color: map-get($color,pinkLight);
+}
 
 
 /* body{
