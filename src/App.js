@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './sass/app.scss';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './pages/Home.jsx';
+import AboutMe from './pages/AboutMe.jsx';
+import Projects from './pages/Projects.jsx';
+import Letstalk from './pages/LetsTalk.jsx';
+import Error404 from './pages/Error404.jsx';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/letstalk" element={<Letstalk />} />
+          <Route path="*" element={<Error404 />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
