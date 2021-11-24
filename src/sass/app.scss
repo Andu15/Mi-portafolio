@@ -7,20 +7,88 @@
   box-sizing: border-box;
 }
 
-.logo {
-  background-image: url('../assets/LOGO.png');
-  background-repeat: no-repeat;
-  width: 220px;
-  height: 70px;
-}
-
 body{
   background-color: map-get($color, black);
 }
 
+// componente Nav
+.container-logo{
+  display: inline-block;
+}
+
+.logo{
+  width: 100%;
+  @include breakpoint(500px) {
+    width: 80%;
+  }
+  @include breakpoint(1000px) {
+    width: 100%;
+  }
+  @include breakpoint(1100px) {
+    margin-left: -20%;
+  }
+  @include breakpoint(1200px) {
+    margin-left: -70%;
+  }
+  @include breakpoint(1900px) {
+    margin-left: -100%;
+  }
+  @include breakpoint(2100px) {
+    margin-left: -200%;
+  }
+}
+
+header{
+  @include breakpoint(700px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+nav{
+  @include breakpoint(700px) {
+    text-align: right;
+  }
+}
+
 a {
   color: map-get($color,pinkLight);
+  margin: 0 5px;
+  font-size: map-get($font-size,xs);
+  transition: all ease-in; 
+  padding: 0.4rem;
+  &:hover{
+    background: map-get($color, greenDark);
+    color: map-get($color,pinkLight);
+    border-radius: 30px;
+    font-weight: bold;
+  }
+  @include breakpoint(400px) {
+    margin: 0 9px;
+    font-size: map-get($font-size,s);
+  }
+  @include breakpoint(500px) {
+    font-size: map-get($font-size,m);
+  }
+  @include breakpoint(700px) {
+    font-size: map-get($font-size,xl);
+  }
+  @include breakpoint(1000px) {
+    font-size: map-get($font-size,xxl);
+  }
+  @include breakpoint(1400px) {
+    font-size: map-get($font-size,xxxl);
+  }
+  @include breakpoint(1700px) {
+    font-size: map-get($font-size,xxxl);
+    margin: 0 70px;
+  }
 }
+
+// componente 
+
 
 
 /* body{

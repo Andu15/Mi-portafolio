@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 const Home = () => {
   return (
     <>
-      <Row>
+      {/* <Row>
         <Col xs={12}>
           <h2>Hola!</h2>
           <p>Mi nombre es Andrea</p>
@@ -25,7 +25,7 @@ const Home = () => {
         <Col>
           <Icon icon="bi:arrow-up-circle-fill" color="#bce276" rotate={2} />
         </Col>
-      </Row>
+      </Row> */}
     </>
   )
 }
