@@ -87,7 +87,46 @@ a {
   }
 }
 
-// componente 
+// componente home
+.ant-col-xs-24{
+  text-align: center 
+}
+
+.container-home{
+  width: 70%;
+  margin: auto;
+  & h2{
+    color: map-get($color, pinkLight);
+    font-size: map-get($font-size,ml);
+    text-align: left;
+  }
+  & .text-white{
+    color: map-get($color, pinkLight);
+    font-size: map-get($font-size,s);
+  }
+  & .text-green{
+    color: map-get($color, greenLight);
+    font-size: map-get($font-size,s);
+  }
+  & .container-icons{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    border: map-get($color, greenLight) 1px solid;
+    padding: 5px;
+    & img{
+      width: 20%;
+    }
+  }
+}
+
+.cover-page{
+  width: 80%;
+  display:block;
+  margin:auto;
+}
+
+
 
 
 
