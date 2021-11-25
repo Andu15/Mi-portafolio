@@ -12,12 +12,18 @@ const Home = () => {
             <p className="text-white">Mi nombre es Andrea</p>
             <p className="text-green">Soy Frontend Developer</p>
             <div className="container-icons">
-              {/* <a className="redirect" href="https://www.linkedin.com/in/andrea-estefania-blanco-avila-b78036156/"> */}
+              <a className="redirect" href="https://www.linkedin.com/in/andrea-estefania-blanco-avila-b78036156/">
                 <img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/>
-              {/* </a> */}
-              <img src="https://img.icons8.com/plasticine/50/000000/github.png"/>
-              <img src="https://img.icons8.com/fluency/48/000000/new-post.png"/>
-              <img src="https://img.icons8.com/doodle/48/000000/slack-new.png"/>
+              </a>
+              <a className="redirect" href="https://github.com/Andu15">
+                <img src="https://img.icons8.com/plasticine/50/000000/github.png"/>
+              </a>
+              <a className="redirect" href="mailto:estefania_8_3@hotmail.com?Subject=Interesado%20en%20conocerte">
+                <img src="https://img.icons8.com/fluency/48/000000/new-post.png"/>
+              </a>
+              <a className="redirect" href="https://join.slack.com/t/nuevoespaciod-y9b5607/shared_invite/zt-znd2e7uo-XGRZcOM5Lyw4knVApTA6vw">
+                <img src="https://img.icons8.com/doodle/48/000000/slack-new.png"/>
+              </a> 
             </div>
           </section>
         </Col>

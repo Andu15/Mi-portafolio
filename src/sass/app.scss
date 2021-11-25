@@ -51,41 +51,42 @@ nav{
   @include breakpoint(700px) {
     text-align: right;
   }
+  & a {
+    color: map-get($color,pinkLight);
+    margin: 0 4px;
+    font-size: map-get($font-size,xs);
+    transition: all ease-in; 
+    padding: 0.4rem;
+    &:hover{
+      background: map-get($color, greenDark);
+      color: map-get($color,pinkLight);
+      border-radius: 30px;
+      font-weight: bold;
+    }
+    @include breakpoint(400px) {
+      margin: 0 6px;
+      font-size: map-get($font-size,s);
+    }
+    @include breakpoint(500px) {
+      font-size: map-get($font-size,m);
+    }
+    @include breakpoint(700px) {
+      font-size: map-get($font-size,x);
+    }
+    @include breakpoint(1000px) {
+      font-size: map-get($font-size,xxl);
+    }
+    @include breakpoint(1400px) {
+      font-size: map-get($font-size,xxxl);
+    }
+    @include breakpoint(1700px) {
+      font-size: map-get($font-size,xxxl);
+      margin: 0 70px;
+    }
+  }
 }
 
-a {
-  color: map-get($color,pinkLight);
-  margin: 0 5px;
-  font-size: map-get($font-size,xs);
-  transition: all ease-in; 
-  padding: 0.4rem;
-  &:hover{
-    background: map-get($color, greenDark);
-    color: map-get($color,pinkLight);
-    border-radius: 30px;
-    font-weight: bold;
-  }
-  @include breakpoint(400px) {
-    margin: 0 9px;
-    font-size: map-get($font-size,s);
-  }
-  @include breakpoint(500px) {
-    font-size: map-get($font-size,m);
-  }
-  @include breakpoint(700px) {
-    font-size: map-get($font-size,xl);
-  }
-  @include breakpoint(1000px) {
-    font-size: map-get($font-size,xxl);
-  }
-  @include breakpoint(1400px) {
-    font-size: map-get($font-size,xxxl);
-  }
-  @include breakpoint(1700px) {
-    font-size: map-get($font-size,xxxl);
-    margin: 0 70px;
-  }
-}
+
 
 // componente home
 .ant-col-xs-24{
@@ -99,14 +100,51 @@ a {
     color: map-get($color, pinkLight);
     font-size: map-get($font-size,ml);
     text-align: left;
+    @include breakpoint(700px) {
+      font-size: map-get($font-size,x);
+    }
+    @include breakpoint(900px) {
+      font-size: map-get($font-size,xl);
+    }
+    @include breakpoint(1000px) {
+      font-size: map-get($font-size,xxxl);
+    }
   }
   & .text-white{
     color: map-get($color, pinkLight);
     font-size: map-get($font-size,s);
+    @include breakpoint(400px) {
+      margin: 2px 0px;
+      font-size: map-get($font-size,m);
+    }
+    @include breakpoint(700px) {
+      margin: 7px 0px;
+      font-size: map-get($font-size,ml);
+    }
+    @include breakpoint(900px) {
+      font-size: map-get($font-size,x);
+    }
+    @include breakpoint(1000px) {
+      font-size: map-get($font-size,xxl);
+    }
   }
   & .text-green{
     color: map-get($color, greenLight);
     font-size: map-get($font-size,s);
+    @include breakpoint(400px) {
+      margin: 2px 0px;
+      font-size: map-get($font-size,m);
+    }
+    @include breakpoint(700px) {
+      margin: 7px 0px;
+      font-size: map-get($font-size,ml);
+    }
+    @include breakpoint(900px) {
+      font-size: map-get($font-size,x);
+    }
+    @include breakpoint(1000px) {
+      font-size: map-get($font-size,xxl);
+    }
   }
   & .container-icons{
     display: flex;
@@ -114,17 +152,30 @@ a {
     border-radius: 10px;
     border: map-get($color, greenLight) 1px solid;
     padding: 5px;
-    & img{
-      width: 20%;
+    width: 80%;
+    @include breakpoint(400px) {
+      margin: 15px 0;
+    }
+    @include breakpoint(1000px) {
+      height: 100px;
+    }
+    & img {
+      width: 100%;
+      @include breakpoint(1000px) {
+        height: 100%;
+      }
     }
   }
 }
 
+// para img de la portada
 .cover-page{
   width: 80%;
   display:block;
   margin:auto;
 }
+
+//animación para flecha
 
 
 
