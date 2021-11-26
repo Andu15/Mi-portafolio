@@ -5,8 +5,8 @@ import { Icon } from '@iconify/react';
 const Home = () => {
   return (
     <>
-      <Row align="middle" justify="center">
-        <Col xs={12}>
+      <Row align="left" justify="center" gutter={[8, 16]}>
+        <Col xs={24} md={12}>
           <section className="container-home">
             <h2>Hola!</h2>
             <p className="text-white">Mi nombre es Andrea</p>
@@ -27,12 +27,14 @@ const Home = () => {
             </div>
           </section>
         </Col>
-        <Col xs={12}>
+
+        <Col xs={24} md={12}>
           <img className="cover-page" src={portada}/>
         </Col>
       </Row>
-      <Row align="middle" justify="center">
-        <Col xs={24} >
+
+      <Row >
+        <Col xs={24} align="middle" justify="center">
           <Icon icon="bi:arrow-up-circle-fill" color="#bce276" height="40" rotate={2}/>
         </Col>
       </Row>

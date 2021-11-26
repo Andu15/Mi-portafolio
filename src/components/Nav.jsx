@@ -10,7 +10,7 @@ const Nav = () => {
           <img className="logo" src={logo} alt ="logo"/>
         </Col>
         <Col xs={16} md={18} lg={20}>
-          <nav class="menu">
+          <nav className="menu">
             <Link to="/aboutme">ACERCA DE MI</Link>
             <Link to="/projects">PROYECTOS</Link>
             <Link to="/letstalk">HABLEMOS</Link>
