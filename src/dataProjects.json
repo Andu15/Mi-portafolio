@@ -1,0 +1,96 @@
+{
+  "profile": "https://github.com/Andu15",
+  "repositories": [
+    {
+      "id": "lab-1",
+      "name": "card-validation",
+      "title": "Magazine Validation Pay",
+      "description": "App basado en el algoritmo de Luhn para validar una tarjeta de crédito",
+      "logo": "",
+      "url": "https://andu15.github.io/LIM015-card-validation/src/",
+      "technologies": [
+        "https://img.icons8.com/color/48/000000/javascript--v1.png",
+        "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+        "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
+        "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
+      ],
+      "dev": "frontend"
+    },
+    {
+      "id": "lab-2",
+      "name": "data-lovers",
+      "title": "Data Lovers",
+      "description": "Pág. web basado en la API de Studio Ghibli y acceder a la información de las 20 películas más aclamadas incluyendo información detallada sobre personajes, locaciones, vehículos y características, además de proporcionar herramientas para que usuarios puedan acceder a las paginas oficiales y plataformas de streaming",
+      "logo": "",
+      "url": "https://andu15.github.io/LIM015-data-lovers/src/",
+      "technologies": [
+        "https://img.icons8.com/color/48/000000/javascript--v1.png",
+        "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+        "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
+        "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg"
+      ],
+      "dev": "frontend"
+    },
+    {
+      "id": "lab-3",
+      "name": "social-network",
+      "title": "La Ruta",
+      "description": "Red social que permite loguearte, compartir, editar, borrar posts, dar likes y busca integrar personas que aman viajar y quieren compartir experiencias sobre hospedajes, comidas y lugares a bajo precio",
+      "logo": "",
+      "url": "https://andu15.github.io/LIM015-social-network/",
+      "technologies": [
+        "https://img.icons8.com/color/48/000000/javascript--v1.png",
+        "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+        "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
+        "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg",
+        "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+      ],
+      "dev": "full stack"
+    },
+    {
+      "id": "lab-4",
+      "name": "md-links",
+      "title": "mdlinks",
+      "description": "Librería que devuelve el status de los links en archivos markdown",
+      "logo": "",
+      "url": "https://www.npmjs.com/package/andu15-mdlinks",
+      "technologies": [
+        "https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg",
+        "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+        "https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg"
+      ],
+      "dev": "backend"
+    },
+    {
+      "id": "lab-5",
+      "name": "burger-queen",
+      "title": "burger queen",
+      "description": "App enfocada en un restaurante de comida rápida para uso exclusivo de trabajadores (chef y mesero) para tener un mejor control y gestión de pedidos",
+      "logo": "",
+      "url": "https://burger-queen-ma2.web.app/",
+      "technologies": [
+        "https://img.icons8.com/color/48/000000/javascript--v1.png",
+        "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+        "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
+        "https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg",
+        "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+        "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+      ],
+      "dev": "full stack"
+    },
+    {
+      "id": "",
+      "name": "",
+      "title": "",
+      "description": "",
+      "logo": "",
+      "url": "",
+      "technologies": [
+        ""
+        
+      ],
+      "dev": ""
+    } 
+  ]
+}
