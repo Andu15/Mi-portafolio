@@ -262,12 +262,46 @@ nav{
     border-radius: 12px;
   }
   .content-img{
-    @include breakpoint(770px) {
+    @include breakpoint(768px) {
       margin: 50px auto;
+      text-align: right;
       }
-    
+    @include breakpoint(1100px) {
+      margin-right: 20px;
+      }
+    @include breakpoint(1300px) {
+      margin-right: 80px;
+      }
+  }
+  .content-btn-profile{
+    @include breakpoint(768px) {
+      margin-left: 25%;
+      }
+    @include breakpoint(900px) {
+      margin-left: 30%;
+      }
+    @include breakpoint(1000px) {
+      margin-left: 40%;
+      }
+    @include breakpoint(1101px) {
+      margin-left: 50%;
+      }
+    @include breakpoint(1200px) {
+      margin-left: 40%;
+      }
+    @include breakpoint(1300px) {
+      margin-left: 20%;
+      }
+    @include breakpoint(1400px) {
+      margin-left: 30%;
+      }
+    @include breakpoint(1550px) {
+      margin-left: 38%;
+      }
   }
 }
+
+
 
 
 

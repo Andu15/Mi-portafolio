@@ -57,16 +57,16 @@ const AboutMe = () => {
           </div>
         </Col>
 
-        <Col Col xs={24} md={12} align="middle">
-          <div className="content-img">
+        <Col Col xs={24} md={12} >
+          <div className="content-img" align="middle">
             <Image
-              width={200}
+              width={250}
               height={300}
               src={photo}
             />
           </div>
-          <div>
-            <a href="https://drive.google.com/uc?id=1D7fhxe1zhYuIu5KzztUpwc2xLnYT-cG0&export=download" download>
+          <div className="content-btn-profile" align="middle">
+            <a href="https://drive.google.com/uc?id=1D7fhxe1zhYuIu5KzztUpwc2xLnYT-cG0&export=download"  download >
               <Button type="link"  icon={<DownloadOutlined />} >
                 DESCARGAR CV
               </Button>
