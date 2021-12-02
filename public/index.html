@@ -4,9 +4,16 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon-16x16.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#66646C" />
+    <!-- otras meta etiquetas-->
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-startup-image" href="%PUBLIC_URL%/AnduLogoTouch.png">
+
     <meta name="description" content="Web site created using create-react-app" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/AnduLogoTouch.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Mi portafolio</title>
   </head>
@@ -20,7 +27,7 @@
           window.addEventListener('load', function () {
             navigator.serviceWorker
             //registers the worker.js file you just made
-              .register('worker.js')
+              .register('./worker.js')
               .then(
                 function (registration) {
                   console.log(
