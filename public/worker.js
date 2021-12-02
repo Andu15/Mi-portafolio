@@ -3,14 +3,7 @@
 const CACHE_NAME = 'v1_mi_portafolio';
 //include all routes used in app
 const urlsToCache = [
-  '/',
-  './index.html',
-  './favicon-16x16.png',
-  '../src/pages/AboutMe.jsx',
-  '../src/pages/Error404.jsx',
-  '../src/pages/Home.jsx',
-  '../src/pages/LetsTalk.jsx',
-  '../src/pages/Projects.jsx'
+  '/'
 ];
 
 // Install a service worker(se almacena en caché los activos estaticos)
