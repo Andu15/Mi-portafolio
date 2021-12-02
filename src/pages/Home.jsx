@@ -33,11 +33,11 @@ const Home = () => {
         </Col>
       </Row>
 
-      <Row >
+      {/* <Row >
         <Col xs={24} align="middle" justify="center">
           <Icon icon="bi:arrow-up-circle-fill" color="#bce276" height="40" rotate={2}/>
         </Col>
-      </Row>
+      </Row> */}
     </>
   )
 }

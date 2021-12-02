@@ -8,7 +8,7 @@
 }
 
 body{
-  background-color: map-get($color, black);
+  // background-color: map-get($color, black);
 }
 
 // componente Nav
@@ -299,6 +299,44 @@ nav{
       margin-left: 38%;
       }
   }
+}
+
+// COMPONENTE PROJECTS
+.container-card{
+  padding: 0 40px 0 40px !important;
+}
+
+.text-portafolio{
+  text-align: center;
+  color: map-get($color,greenLight);
+}
+
+.cardItem{
+  height: 94%;
+}
+
+.linkUrl{
+  color: map-get($color,greenLight);
+  font-weight: bold;
+  &:hover{
+    color: map-get($color,pinkLight);
+    font-weight: bold;
+    background: map-get($color,greenGradient);
+    padding: 10px;
+    border-radius: 15px;
+  }
+}
+
+.container-stack{
+  position: relative;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacing{
+  margin-top: 20px;
 }
 
 

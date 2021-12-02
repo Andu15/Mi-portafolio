@@ -1,8 +1,10 @@
+import FormTemplate from '../components/FormTemplate';
+
 const Letstalk = () => {
   return (
-    <div>
-      
-    </div>
+    <section>
+      <FormTemplate />
+    </section>
   )
 }
 

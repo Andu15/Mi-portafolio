@@ -1,17 +1,31 @@
-import { Card } from 'antd';
+import { Card, Row, Col} from 'antd';
+import {GithubOutlined} from '@ant-design/icons';
+const { Meta } = Card;
 
-const CardUnit = () => {
+const CardUnit = ({proyect}) => {
+
   return (
-    <div>
+    <Col className="container-card" xs={24} sm={12} xl={8} xxl={6}>
       <Card
-        style={{ marginTop: 16 }}
+        style={{ marginTop: 16}}
         type="inner"
-        title="Inner Card title"
-        extra={<a href="#">More</a>}
+        title={proyect.title.toUpperCase()}
+        extra={<a className="linkUrl" href={proyect.url}><GithubOutlined /> Ver proyecto</a>}
+        className="cardItem"
+        headStyle={{color: "#81C452", fontWeight: "bold"}}
+        bodyStyle={{}}
       >
-        Inner Card content
+        <p>{proyect.description}</p>
+        <Row className="container-stack" >
+          <Col xs={10}><h4>Desarrollado en {proyect.dev}</h4></Col>
+          <Col xs={14} align="right">
+            {
+              proyect.technologies.map((tech)=><img width="15" src={tech}/>)
+            }
+          </Col>
+        </Row> 
       </Card>
-    </div>
+    </Col>
   )
 }
 

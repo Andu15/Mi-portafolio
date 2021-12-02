@@ -5,7 +5,7 @@
       "id": "lab-1",
       "name": "card-validation",
       "title": "Magazine Validation Pay",
-      "description": "App basado en el algoritmo de Luhn para validar una tarjeta de crédito",
+      "description": "Aplicación web basado en el algoritmo de Luhn, que le permite al usuario validar el número de una tarjeta de crédito, con el plus de verificar el tipo de tarjeta ingresada",
       "logo": "",
       "url": "https://andu15.github.io/LIM015-card-validation/src/",
       "technologies": [
@@ -20,7 +20,7 @@
       "id": "lab-2",
       "name": "data-lovers",
       "title": "Data Lovers",
-      "description": "Pág. web basado en la API de Studio Ghibli y acceder a la información de las 20 películas más aclamadas incluyendo información detallada sobre personajes, locaciones, vehículos y características, además de proporcionar herramientas para que usuarios puedan acceder a las paginas oficiales y plataformas de streaming",
+      "description": "App basado en la API de Studio Ghibli y acceder a la información de las 20 películas más aclamadas incluyendo información detallada sobre personajes, locaciones, vehículos y características",
       "logo": "",
       "url": "https://andu15.github.io/LIM015-data-lovers/src/",
       "technologies": [
@@ -51,11 +51,11 @@
       "id": "lab-4",
       "name": "md-links",
       "title": "mdlinks",
-      "description": "Librería que devuelve el status de los links en archivos markdown",
+      "description": "Librería construida en nodejs, que lee y analiza archivos en formato Markdown, para verificar los links que contengan y que devuelve el status de los links en archivos markdown con una interfaz amigable",
       "logo": "",
       "url": "https://www.npmjs.com/package/andu15-mdlinks",
       "technologies": [
-        "https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg",
+        "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
         "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
         "https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg"
       ],
@@ -65,7 +65,7 @@
       "id": "lab-5",
       "name": "burger-queen",
       "title": "burger queen",
-      "description": "App enfocada en un restaurante de comida rápida para uso exclusivo de trabajadores (chef y mesero) para tener un mejor control y gestión de pedidos",
+      "description": "Interfaz para tomar pedidos y enviarlos a la cocina para que se preparen ordenada y eficientemente de un restaurante de comida rápida para uso exclusivo de trabajadores (chef y mesero)",
       "logo": "",
       "url": "https://burger-queen-ma2.web.app/",
       "technologies": [
