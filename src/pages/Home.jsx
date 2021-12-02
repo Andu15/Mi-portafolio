@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 const Home = () => {
   return (
-    <>
+    <section className="home">
       <Row align="left" justify="center" gutter={[8, 16]}>
         <Col xs={24} md={12}>
           <section className="container-home">
@@ -38,7 +38,7 @@ const Home = () => {
           <Icon icon="bi:arrow-up-circle-fill" color="#bce276" height="40" rotate={2}/>
         </Col>
       </Row> */}
-    </>
+    </section>
   )
 }
 

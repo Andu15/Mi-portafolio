@@ -7,7 +7,7 @@ const Nav = () => {
     <header>
       <Row align="middle" justify="center">
         <Col xs={8} md={6} lg={4}>
-          <img className="logo" src={logo} alt ="logo"/>
+          <Link to="/"><img className="logo" src={logo} alt ="logo"/></Link>
         </Col>
         <Col xs={16} md={18} lg={20}>
           <nav className="menu">

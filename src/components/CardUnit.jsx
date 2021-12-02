@@ -1,6 +1,5 @@
 import { Card, Row, Col} from 'antd';
 import {GithubOutlined} from '@ant-design/icons';
-const { Meta } = Card;
 
 const CardUnit = ({proyect}) => {
 
@@ -9,7 +8,7 @@ const CardUnit = ({proyect}) => {
       <Card
         style={{ marginTop: 16}}
         type="inner"
-        title={proyect.title.toUpperCase()}
+        title={proyect.name.toUpperCase()}
         extra={<a className="linkUrl" href={proyect.url}><GithubOutlined /> Ver proyecto</a>}
         className="cardItem"
         headStyle={{color: "#81C452", fontWeight: "bold"}}
@@ -20,7 +19,7 @@ const CardUnit = ({proyect}) => {
           <Col xs={10}><h4>Desarrollado en {proyect.dev}</h4></Col>
           <Col xs={14} align="right">
             {
-              proyect.technologies.map((tech)=><img width="15" src={tech}/>)
+              proyect.technologies.map((tech, index)=><img key={index} width="15" src={tech}/>)
             }
           </Col>
         </Row> 

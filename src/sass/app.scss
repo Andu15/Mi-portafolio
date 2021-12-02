@@ -8,7 +8,7 @@
 }
 
 body{
-  // background-color: map-get($color, black);
+  background-color: map-get($color, black);
 }
 
 // componente Nav
@@ -50,6 +50,7 @@ header{
 nav{
   @include breakpoint(700px) {
     text-align: right;
+    padding: 80px 0;
   }
   & a {
     color: map-get($color,pinkLight);
@@ -88,82 +89,89 @@ nav{
 
 
 // COMPONENTE HOME
-.container-home{
-  width: 70%;
-  margin: auto;
-  margin-bottom: 50px;
-  & h2{
-    color: map-get($color, pinkLight);
-    font-size: map-get($font-size,ml);
-    text-align: left;
-    @include breakpoint(700px) {
-      font-size: map-get($font-size,x);
-    }
-    @include breakpoint(900px) {
-      font-size: map-get($font-size,xl);
-    }
-    @include breakpoint(1000px) {
-      font-size: map-get($font-size,xxxl);
-    }
+.home{
+  padding: 50px 0;
+  @include breakpoint(700px) {
+    padding: 80px 0;
   }
-  & .text-white{
-    color: map-get($color, pinkLight);
-    font-size: map-get($font-size,s);
-    @include breakpoint(400px) {
-      margin: 2px 0px;
-      font-size: map-get($font-size,m);
-    }
-    @include breakpoint(700px) {
-      margin: 7px 0px;
+  & .container-home{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+    & h2{
+      color: map-get($color, pinkLight);
       font-size: map-get($font-size,ml);
-    }
-    @include breakpoint(900px) {
-      font-size: map-get($font-size,x);
-    }
-    @include breakpoint(1000px) {
-      font-size: map-get($font-size,xxl);
-    }
-  }
-  & .text-green{
-    color: map-get($color, greenLight);
-    font-size: map-get($font-size,s);
-    @include breakpoint(400px) {
-      margin: 2px 0px;
-      font-size: map-get($font-size,m);
-    }
-    @include breakpoint(700px) {
-      margin: 7px 0px;
-      font-size: map-get($font-size,ml);
-    }
-    @include breakpoint(900px) {
-      font-size: map-get($font-size,x);
-    }
-    @include breakpoint(1000px) {
-      font-size: map-get($font-size,xxl);
-    }
-  }
-  & .container-icons{
-    display: flex;
-    justify-content: space-around;
-    border-radius: 10px;
-    border: map-get($color, greenLight) 1px solid;
-    padding: 5px;
-    width: 80%;
-    @include breakpoint(400px) {
-      margin: 15px 0;
-    }
-    @include breakpoint(1000px) {
-      height: 100px;
-    }
-    & img {
-      // padding: 10px 0;
-      width: 100%;
+      text-align: left;
+      @include breakpoint(700px) {
+        font-size: map-get($font-size,x);
+      }
+      @include breakpoint(900px) {
+        font-size: map-get($font-size,xl);
+      }
       @include breakpoint(1000px) {
-        height: 100%;
+        font-size: map-get($font-size,xxxl);
+      }
+    }
+    & .text-white{
+      color: map-get($color, pinkLight);
+      font-size: map-get($font-size,s);
+      @include breakpoint(400px) {
+        margin: 2px 0px;
+        font-size: map-get($font-size,m);
+      }
+      @include breakpoint(700px) {
+        margin: 7px 0px;
+        font-size: map-get($font-size,ml);
+      }
+      @include breakpoint(900px) {
+        font-size: map-get($font-size,x);
+      }
+      @include breakpoint(1000px) {
+        font-size: map-get($font-size,xxl);
+      }
+    }
+    & .text-green{
+      color: map-get($color, greenLight);
+      font-size: map-get($font-size,s);
+      @include breakpoint(400px) {
+        margin: 2px 0px;
+        font-size: map-get($font-size,m);
+      }
+      @include breakpoint(700px) {
+        margin: 7px 0px;
+        font-size: map-get($font-size,ml);
+      }
+      @include breakpoint(900px) {
+        font-size: map-get($font-size,x);
+      }
+      @include breakpoint(1000px) {
+        font-size: map-get($font-size,xxl);
+      }
+    }
+    & .container-icons{
+      display: flex;
+      justify-content: space-around;
+      border-radius: 10px;
+      border: map-get($color, greenLight) 1px solid;
+      padding: 5px;
+      width: 80%;
+      @include breakpoint(400px) {
+        margin: 15px 0;
+      }
+      @include breakpoint(1000px) {
+        height: 100px;
+      }
+      & img {
+        // padding: 10px 0;
+        width: 100%;
+        @include breakpoint(1000px) {
+          height: 100%;
+        }
       }
     }
   }
 }
+
 
 // para img de la portada
 .cover-page{
@@ -171,6 +179,18 @@ nav{
   display:block;
   margin:auto;
   margin-bottom: 40px;
+}
+
+// para imagen 404
+.cover-error-page{
+  width: 100vw;
+  display: block;
+  margin: 60px auto;
+}
+
+.text-notFound{
+  text-align: center;
+  color: map-get($color, pinkLight)
 }
 
 //animación para flecha
@@ -302,42 +322,140 @@ nav{
 }
 
 // COMPONENTE PROJECTS
-.container-card{
-  padding: 0 40px 0 40px !important;
-}
-
-.text-portafolio{
-  text-align: center;
-  color: map-get($color,greenLight);
-}
-
-.cardItem{
-  height: 94%;
-}
-
-.linkUrl{
-  color: map-get($color,greenLight);
-  font-weight: bold;
-  &:hover{
-    color: map-get($color,pinkLight);
+.container-projects{
+  & .container-card{
+    padding: 0 40px 0 40px !important;
+  }
+  & .text-portafolio{
+    text-align: center;
+    color: map-get($color,greenLight);
+  }
+  & .github-portafolio{
+    display:block;
+    width:70px;
+    margin:0 auto;
+  }
+  & .cardItem{
+    height: 94%;
+  }
+  .linkUrl{
+    color: map-get($color,greenLight);
     font-weight: bold;
-    background: map-get($color,greenGradient);
-    padding: 10px;
-    border-radius: 15px;
+    &:hover{
+      color: map-get($color,pinkLight);
+      font-weight: bold;
+      background: map-get($color,greenGradient);
+      padding: 10px;
+      border-radius: 15px;
+    }
+  }
+  & .container-stack{
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  & .spacing{
+    margin-top: 20px;
   }
 }
 
-.container-stack{
-  position: relative;
-  top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+// COMPONENT LETSTALK
+.letstalk{
+  margin: 40px;
+  @include breakpoint(500px) {
+    margin: 30px auto;
+    width: 70vw;
+  }
+  @include breakpoint(701px) {
+    margin: 40px auto;
+    width: 50vw;
+  }
+  @include breakpoint(950px) {
+    width: 40vw;
+  }
+  & .text-talk{
+    text-align: center;
+    background: map-get($color, greenGradient);
+    color: map-get($color, black);
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: map-get($font-size, xl);
+  }
+  & .text-talk-description{
+    color: map-get($color, pinkLight);
+    text-align: center;
+    @include breakpoint(600px) {
+      font-size: map-get($font-size, x);
+    }
+  }
 }
 
-.spacing{
-  margin-top: 20px;
+// COMPONENT FORMTEMPLATE
+.container-form{
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  & .text-form{
+    color: map-get($color, pinkLight);
+    margin-top: 15px;
+  }
+  & .btn-form{
+    width: 50%;
+    margin: 30px auto;
+    color: map-get($color, pinkLight);
+    background-color: map-get($color, greenDark);
+    border-radius: 30px;
+    border: none;
+    padding: 10px 0;
+    &.btn-form:hover{
+      background-color: map-get($color, greenLight);
+    }
+  }
+  & label{
+    @include breakpoint(600px) {
+      font-size: map-get($font-size, x);
+    }
+  }
+  & input{
+    background-color: transparent;
+    color: map-get($color, pinkLight);
+    padding: 3px 5px;
+    @include breakpoint(600px) {
+      font-size: map-get($font-size, x);
+    }
+    &:invalid {
+      border: 2px solid map-get($color, yellow);
+      border-radius: 20px;
+    }
+    &:valid {
+      border-radius: 20px;
+    }
+  }
+  & textarea{
+    background-color: transparent;
+    color: map-get($color, pinkLight);
+    padding: 3px 5px;
+    @include breakpoint(600px) {
+      font-size: map-get($font-size, x);
+    }
+    &:invalid {
+      border: 2px solid map-get($color, yellow);
+      border-radius: 20px;
+    }
+    &:valid {
+      border-radius: 20px;
+    }
+  }
 }
+
+
+
+
+
 
 
 
