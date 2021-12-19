@@ -78,6 +78,34 @@
         "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
       ],
       "dev": "full stack"
+    },
+    {
+      "id": "lab-6",
+      "name": "backend-hapi",
+      "title": "backend-hapi",
+      "description": "Contrucción de API's para: registro de usuarios, autenticación(correo y contraseña), creación de posts, lista de posts, eliminar los post y agregar o quitar like a un post cuando el usuario esta autenticado",
+      "logo": "",
+      "url": "https://github.com/Andu15/backend-hapi",
+      "technologies": [
+        "https://www.vectorlogo.zone/logos/nestjs/nestjs-icon.svg",
+        "https://www.vectorlogo.zone/logos/docker/docker-icon.svg",
+        "https://img.icons8.com/color/50/000000/java-web-token.png"
+      ],
+      "dev": "backend"
+    },
+    {
+      "id": "lab-7",
+      "name": "labNotes",
+      "title": "pyfNotes-vue",
+      "description": "App para loguearse y tener acceso a todas sus notas, podrá tachar las que ya estan hechas, editarlas, borrarlas o incluso buscar alguna nota en particular y basado en el dibujo de phineas y ferb",
+      "logo": "",
+      "url": "https://github.com/Andu15/pyfNotes-vue",
+      "technologies": [
+        "https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg",
+        "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+        "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+      ],
+      "dev": "full stack"
     }
   ]
 }

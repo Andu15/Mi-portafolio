@@ -3,7 +3,6 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 import Home from './pages/Home.jsx';
 import AboutMe from './pages/AboutMe.jsx';
@@ -18,7 +17,7 @@ const App = () => {
       <BrowserRouter>
         <Nav/>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Mi-portafolio" element={<Home />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/letstalk" element={<Letstalk />} />
