@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Mi-portafolio/static/css/main.a15b8c7f.chunk.css",
+    "main.js": "/Mi-portafolio/static/js/main.f34970eb.chunk.js",
+    "main.js.map": "/Mi-portafolio/static/js/main.f34970eb.chunk.js.map",
+    "runtime-main.js": "/Mi-portafolio/static/js/runtime-main.eed681a0.js",
+    "runtime-main.js.map": "/Mi-portafolio/static/js/runtime-main.eed681a0.js.map",
+    "static/css/2.4dca5ddc.chunk.css": "/Mi-portafolio/static/css/2.4dca5ddc.chunk.css",
+    "static/js/2.5b5b2e79.chunk.js": "/Mi-portafolio/static/js/2.5b5b2e79.chunk.js",
+    "static/js/2.5b5b2e79.chunk.js.map": "/Mi-portafolio/static/js/2.5b5b2e79.chunk.js.map",
+    "static/js/3.6231d45f.chunk.js": "/Mi-portafolio/static/js/3.6231d45f.chunk.js",
+    "static/js/3.6231d45f.chunk.js.map": "/Mi-portafolio/static/js/3.6231d45f.chunk.js.map",
+    "index.html": "/Mi-portafolio/index.html",
+    "service-worker.js": "/Mi-portafolio/service-worker.js",
+    "service-worker.js.map": "/Mi-portafolio/service-worker.js.map",
+    "static/css/2.4dca5ddc.chunk.css.map": "/Mi-portafolio/static/css/2.4dca5ddc.chunk.css.map",
+    "static/css/main.a15b8c7f.chunk.css.map": "/Mi-portafolio/static/css/main.a15b8c7f.chunk.css.map",
+    "static/js/2.5b5b2e79.chunk.js.LICENSE.txt": "/Mi-portafolio/static/js/2.5b5b2e79.chunk.js.LICENSE.txt",
+    "static/media/error404.7d3ae9ef.svg": "/Mi-portafolio/static/media/error404.7d3ae9ef.svg",
+    "static/media/logoProyect.be993ab3.png": "/Mi-portafolio/static/media/logoProyect.be993ab3.png",
+    "static/media/logoinitial.a8e53d11.png": "/Mi-portafolio/static/media/logoinitial.a8e53d11.png",
+    "static/media/me.d056d172.jpeg": "/Mi-portafolio/static/media/me.d056d172.jpeg",
+    "static/media/portadaHome.6c4233b4.png": "/Mi-portafolio/static/media/portadaHome.6c4233b4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eed681a0.js",
+    "static/css/2.4dca5ddc.chunk.css",
+    "static/js/2.5b5b2e79.chunk.js",
+    "static/css/main.a15b8c7f.chunk.css",
+    "static/js/main.f34970eb.chunk.js"
+  ]
+}
